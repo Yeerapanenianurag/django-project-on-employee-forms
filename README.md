@@ -26,3 +26,18 @@ This is a backend project built using Django that manages an employee database w
 
 ## 📁 Project Structure
 
+Employee-database-backend-project-using-django/
+├── information/ # Main app
+│ ├── models.py # Employee model
+│ ├── forms.py # Employee form (ModelForm)
+│ ├── views.py # View logic
+│ ├── urls.py # App-specific URLs
+│ └── templates/ # HTML templates
+│ ├── welcome.html # Welcome page with project intro
+│ └── employee_form.html # Form and table UI
+├── EmployeeDatabase/ # Django project settings
+│ ├── settings.py # Config and DB settings
+│ └── urls.py # Project URLs
+├── static/ # Static files (optional)
+├── manage.py
+└── README.md
